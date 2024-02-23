@@ -2,7 +2,7 @@
 /**
  * times_table - entry point
  * Description: prints 9 times table
- *Return: 0
+ *Return: void
  **/
 void times_table(void)
 {
