@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_puts - prints a sting
+ * _puts - prints a sting
  *@str: function that prints a string
  *Return: void
  **/
