@@ -3,7 +3,7 @@
  *_strcat - entry point
  *@src: variable
  *@dest: variable
- *Return: strcat
+ *Return: dest
  **/
 char *_strcat(char *dest, char *src)
 {
