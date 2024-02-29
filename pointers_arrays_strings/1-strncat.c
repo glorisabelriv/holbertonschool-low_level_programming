@@ -15,14 +15,14 @@ while (dest[i] != '\0')
 {
 i++;
 }
-while (src[j] != '\0')
+while (j < n && src[j] != '\0')
 {
-int n = src[j];
-
+dest[i + j] = src[j];
+j++;
+}
 dest[i] = src[j];
 i++;
 j++;
-}
 return (dest);
 }
 
