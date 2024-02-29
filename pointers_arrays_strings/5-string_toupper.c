@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * string_toupper - lowercase letter function
+ * *string_toupper - lowercase letter function
  *@str: pointers
- *@i: variable temporal
  *Return: 0
  **/
 char *string_toupper(char *str)
