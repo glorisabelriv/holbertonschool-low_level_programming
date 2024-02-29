@@ -3,7 +3,7 @@
  * string_toupper - lowercase letter function
  *@str: pointers
  *@i: variable temporal
- *Return: str
+ *Return: 0
  **/
 char *string_toupper(char *str)
 {
