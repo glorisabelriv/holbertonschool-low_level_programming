@@ -4,6 +4,7 @@
  *@dest: variable point
  *@src: variable second point
  *@n: variable digit
+ *Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
