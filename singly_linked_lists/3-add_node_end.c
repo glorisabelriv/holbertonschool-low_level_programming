@@ -3,34 +3,34 @@
  * add_node_end - adds node st the end
  * @head: double pointer
  * @str: string
- * Return: addres new elemet or null
+ * Return: Succes
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *tem, *second;
+	list_t *temp, *last;
 
-	tem = malloc(sizeof(list_t));
+	temp = malloc(sizeof(list_t));
 
-	if (tem == NULL)
+	if (temp == NULL)
 	{
 		return (NULL);
 	}
 
-	tem->str = strdup(str);
-	tem->len = strlen(str);
-	tem->next = NULL;
+	temp->str = strdup(str);
+	temp->len = strlen(str);
+	temp->next = NULL;
 
 	if (*head == NULL)
 	{
-		*head = tem;
-		return (tem);
+		*head = temp;
+		return (temp);
 	}
-	second = *head;
-	while (second->next != NULL)
+	last = *head;
+	while (last->next != NULL)
 	{
-		second = second->next;
+		last = last->next;
 	}
 
-	second->next = tem;
-	return (tem);
+	last->next = temp;
+	return (temp);
 }
