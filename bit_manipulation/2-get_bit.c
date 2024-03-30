@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- *get_bit - function that return value
- *@n: int unsigned long
- *@index: value given index
- *Returns: value of bits index or -1
- **/
+* get_bit - a function that returns the value of a bit
+*at a given index
+* @n: long integer
+* @index: is the index, starting from 0 of the bit
+* Return: the value of the bit at index or -1 if an
+*/
 int get_bit(unsigned long int n, unsigned int index)
 {
 	if (index >= 64)
