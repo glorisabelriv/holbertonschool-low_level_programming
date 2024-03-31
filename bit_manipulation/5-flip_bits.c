@@ -3,6 +3,7 @@
  *flip_bits - number of bitd need to flip
  *@n: unsigned long number bits
  *@m: unsigned long
+ *Return: usingned int
  **/
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -14,5 +15,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		i++;
 		j &= (j - 1);
 	}
+
 	return (i);
 }
